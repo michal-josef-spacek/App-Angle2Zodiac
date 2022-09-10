@@ -88,7 +88,9 @@ Run.
 
 Returns 1 for error, 0 for success.
 
-=head1 EXAMPLE
+=head1 EXAMPLE1
+
+=for comment filename=example_convert.pl
 
  use strict;
  use warnings;
@@ -105,6 +107,27 @@ Returns 1 for error, 0 for success.
 
  # Output:
  # 2°♏31′28.9560′′
+
+=head1 EXAMPLE2
+
+=for comment filename=example_convert_ascii.pl
+
+ use strict;
+ use warnings;
+
+ use App::Angle2Zodiac;
+
+ # Arguments.
+ @ARGV = (
+         '-a',
+         212.5247100,
+ );
+
+ # Run.
+ exit App::Angle2Zodiac->new->run;
+
+ # Output:
+ # 2 sc 31′28.9560′′
 
 =head1 DEPENDENCIES
 
