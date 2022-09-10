@@ -20,6 +20,7 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
+SIGNATURE
 t/App-Angle2Zodiac/01-use.t
 t/App-Angle2Zodiac/02-version.t
 xt/App-Angle2Zodiac/01-pod_coverage.t
