@@ -44,6 +44,9 @@ sub run {
 
 	print encode_utf8(Zodiac::Angle->new->angle2zodiac($self->{'_angle'}, {
 		'second' => 1,
+		$self->{'_opts'}->{'a'} ? (
+			'sign_type' => 'ascii',
+		) : (),
 	}))."\n";
 
 	return 0;
