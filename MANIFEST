@@ -23,5 +23,6 @@ README
 SIGNATURE
 t/App-Angle2Zodiac/01-use.t
 t/App-Angle2Zodiac/02-version.t
+t/App-Angle2Zodiac/03-new.t
 xt/App-Angle2Zodiac/01-pod_coverage.t
 xt/App-Angle2Zodiac/02-pod.t
