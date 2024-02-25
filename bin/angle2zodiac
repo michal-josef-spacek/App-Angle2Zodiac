@@ -36,15 +36,15 @@ angle2zodiac - Script to convert angle to zodiac string.
 
 =item * C<-a>
 
- Output will be in ascii form (e.g. 2 sc 31'28.9560'')
+Output will be in ascii form (e.g. 2 sc 31'28.9560'')
 
 =item * C<-h>
 
- Print help.
+Print help.
 
 =item * C<--version>
 
- Print version of script.
+Print version of script.
 
 =item * C<angle>
 

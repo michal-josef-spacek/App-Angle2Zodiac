@@ -7,15 +7,15 @@ SYNOPSIS
 ARGUMENTS
     *       "-a"
 
-             Output will be in ascii form (e.g. 2 sc 31'28.9560'')
+            Output will be in ascii form (e.g. 2 sc 31'28.9560'')
 
     *       "-h"
 
-             Print help.
+            Print help.
 
     *       "--version"
 
-             Print version of script.
+            Print version of script.
 
     *       "angle"
 

@@ -1,5 +1,6 @@
 0.02
  - Add constructor test.
+ - Improve doc.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
 

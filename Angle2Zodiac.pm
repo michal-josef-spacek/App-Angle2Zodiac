@@ -80,6 +80,8 @@ App::Angle2Zodiac - Base class for angle2zodiac script.
 
 Constructor.
 
+Returns instance of object.
+
 =head2 C<run>
 
  my $exit_code = $app->run;
